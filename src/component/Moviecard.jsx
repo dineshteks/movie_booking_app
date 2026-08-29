@@ -25,7 +25,7 @@ function MovieCard({ movie }) {
     <>
        <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
        <GenreFilter selectedGenre={selectedGenre} setSelectedGenre={setSelectedGenre}/>
-    <div className="flex flex-wrap justify-evenly mt-3">
+    <div className="flex flex-wrap gap-[20px] mt-3">
     {movies.map((m)=>
     <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
 
