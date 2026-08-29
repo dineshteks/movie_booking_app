@@ -34,12 +34,12 @@ function Navbar() {
             Movies
           </Link>
 
-          <Link
+          {/* <Link
             to="/theaters"
             className="hover:text-red-500 transition duration-300"
           >
             Theaters
-          </Link>
+          </Link> */}
 
           <Link
             to="/bookings"
